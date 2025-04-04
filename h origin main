@@ -1,0 +1,31 @@
+8ce962f (HEAD -> main) Edit src/components/home/CTA.tsx
+37afd05 Edit .git/config
+e009454 Edit .git/config
+22b32e7 Edit .git/config
+98a524e (origin/main) Edit src/components/layout/Header.tsx
+9c2a21d style(layout): Consolidate Header component styles
+384b4f3 style(layout): Consolidate Header component styles
+52d7104 style(layout): Consolidate Header component styles
+3355c08 style(layout): Refactor Header component styles
+99854ba style(layout): Refactor Header component styles
+7ad125e style(layout): Refactor Header component styles
+79d58ae Edit src/components/layout/Header.tsx
+8e38229 Edit src/components/layout/Header.tsx
+753ef6b Edit src/components/layout/Header.tsx
+24f346f Edit src/components/layout/Header.tsx
+0c8c3f1 Edit src/components/layout/Header.tsx
+f6752b3 Edit src/components/layout/Header.tsx
+0142b4b Edit src/components/layout/Header.tsx
+4a00de5 style(layout): Refactor Header and Footer component styles
+1147cdb style(layout): Update Footer and Header component styles
+ea28723 Edit src/components/layout/Footer.tsx
+3b44ced Edit src/components/layout/Footer.tsx
+5e7f79c Edit src/components/layout/Header.tsx
+4e48a1a Edit src/components/layout/Footer.tsx
+49ee3f0 feat(auth): Add user authentication module
+7e40fdb feat(): Add user authentication module
+2e67f93 feat(): Initial project setup
+bb651da feat(): Initial project setup
+b4be038 feat(): Initial commit
+8c0faaa Initial commit
+
