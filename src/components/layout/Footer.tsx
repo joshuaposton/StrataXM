@@ -2,7 +2,7 @@
           <div className='md:col-span-1'>
             <Link href='/' className='inline-block'>
               <Image 
-                src='/images/Logo Background Removed.png' 
+                src='public/images/logo_bg_removed.png' 
                 alt='StrataXM Logo' 
                 width={140} 
                 height={40} 
