@@ -23,7 +23,7 @@ export function Header() {
           <Link href='/' className='flex items-center space-x-2'>
             <div className='h-10'>
               <Image 
-                src='public/images/logo_bg_removed.png' 
+                src='/images/logo_bg_removed.png' 
                 alt='StrataXM Logo' 
                 width={140} 
                 height={40} 
@@ -62,7 +62,7 @@ export function Header() {
           <SheetContent side='right' className='w-full sm:max-w-sm'>
             <div className='mt-6 mb-8'>
               <Image 
-                src='/images/logo.png' 
+                src='/images/logo_bg_removed.png' 
                 alt='StrataXM Logo' 
                 width={140} 
                 height={40} 

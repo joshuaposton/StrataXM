@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 import Image from 'next/image';
 
@@ -10,7 +9,7 @@ export function Footer() {
           <div className='md:col-span-1'>
             <Link href='/' className='inline-block'>
               <Image 
-                src='/images/logo.png' 
+                src='/images/logo_bg_removed.png' 
                 alt='StrataXM Logo' 
                 width={140} 
                 height={40} 
