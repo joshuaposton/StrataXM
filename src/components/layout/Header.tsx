@@ -25,8 +25,8 @@ export function Header() {
               <Image 
                 src='/images/logo_bg_removed.png' 
                 alt='StrataXM Logo' 
-                width={140} 
-                height={40} 
+                width={280} 
+                height={120} 
                 priority
                 className='h-full w-auto'
               />
