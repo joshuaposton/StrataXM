@@ -23,7 +23,7 @@ export function Header() {
           <Link href='/' className='flex items-center space-x-2'>
             <div className='h-10'>
               <Image 
-                src='/images/logo.png' 
+                src='public/images/logo_bg_removed.png' 
                 alt='StrataXM Logo' 
                 width={140} 
                 height={40} 
