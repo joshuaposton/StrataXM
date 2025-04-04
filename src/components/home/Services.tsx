@@ -51,7 +51,9 @@ export function Services() {
   ];
 
   return (
-    <section className="relative py-16 md:py-24 bg-secondary/50">
+    <section className="relative py-16 md:py-24 bg-secondary/50 overflow-hidden">
+      <div className="absolute top-0 left-0 w-full h-24 bg-gradient-to-t from-secondary/50 to-white pointer-events-none z-0" />
+
       <div className="container px-4 md:px-6 lg:px-8">
         <div className="flex flex-col items-center text-center space-y-4 mb-12 md:mb-16">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tighter">Our Services</h2>

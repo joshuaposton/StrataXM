@@ -1,10 +1,7 @@
-
 import Head from "next/head";
 import { Layout } from "@/components/layout/Layout";
 import { Hero } from "@/components/home/Hero";
 import { Services } from "@/components/home/Services";
-import { Values } from "@/components/home/Values";
-import { Testimonials } from "@/components/home/Testimonials";
 import { Insights } from "@/components/home/Insights";
 import { CTA } from "@/components/home/CTA";
 
@@ -20,8 +17,6 @@ export default function Home() {
       <Layout>
         <Hero />
         <Services />
-        <Values />
-        <Testimonials />
         <Insights />
         <CTA />
       </Layout>
