@@ -1,5 +1,5 @@
-
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
 export function Hero() {
@@ -9,17 +9,17 @@ export function Hero() {
         <div className="flex flex-col items-center text-center space-y-8 max-w-3xl mx-auto">
           <div className="space-y-4">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter">
-              Strategic Solutions for Complex Challenges
+              <span className="gradient-text">Strategic Solutions</span> for Complex Challenges
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               StrataXM helps organizations navigate complexity and drive meaningful transformation through innovative strategies and solutions.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button size="lg" asChild>
+            <Button size="lg" className="bg-gradient-to-r from-[#4CD964] to-[#3B82F6] hover:opacity-90 transition-opacity" asChild>
               <Link href="/contact">Get Started</Link>
             </Button>
-            <Button size="lg" variant="outline" asChild>
+            <Button size="lg" variant="outline" className="border-[#3B82F6] text-[#3B82F6] hover:bg-[#3B82F6]/10" asChild>
               <Link href="/services">Explore Services</Link>
             </Button>
           </div>

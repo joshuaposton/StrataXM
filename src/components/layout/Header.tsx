@@ -1,6 +1,6 @@
-
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
@@ -21,7 +21,13 @@ export function Header() {
       <div className="container flex h-16 items-center justify-between px-4 md:px-6 lg:px-8">
         <div className="flex items-center gap-2">
           <Link href="/" className="flex items-center space-x-2">
-            <span className="text-xl font-bold tracking-tight">StrataXM</span>
+            <Image 
+              src="/logo.png" 
+              alt="StrataXM Logo" 
+              width={140} 
+              height={40} 
+              className="h-8 w-auto"
+            />
           </Link>
         </div>
         
@@ -38,7 +44,7 @@ export function Header() {
         </nav>
         
         <div className="hidden md:flex md:items-center md:gap-4">
-          <Button variant="outline" size="sm" asChild>
+          <Button variant="default" size="sm" asChild className="bg-gradient-to-r from-[#4CD964] to-[#3B82F6] hover:opacity-90 transition-opacity">
             <Link href="/contact">Get in Touch</Link>
           </Button>
         </div>
@@ -51,7 +57,16 @@ export function Header() {
             </Button>
           </SheetTrigger>
           <SheetContent side="right" className="w-full sm:max-w-sm">
-            <nav className="flex flex-col gap-4 mt-8">
+            <div className="mt-6 mb-8">
+              <Image 
+                src="/logo.png" 
+                alt="StrataXM Logo" 
+                width={140} 
+                height={40} 
+                className="h-8 w-auto"
+              />
+            </div>
+            <nav className="flex flex-col gap-4">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
@@ -62,7 +77,7 @@ export function Header() {
                   {item.name}
                 </Link>
               ))}
-              <Button className="mt-4" asChild>
+              <Button className="mt-4 bg-gradient-to-r from-[#4CD964] to-[#3B82F6] hover:opacity-90 transition-opacity" asChild>
                 <Link href="/contact" onClick={() => setIsOpen(false)}>
                   Get in Touch
                 </Link>
