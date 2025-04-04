@@ -21,7 +21,7 @@ export function Header() {
       <div className='container flex h-16 items-center justify-between px-4 md:px-6 lg:px-8'>
         <div className='flex items-center gap-2'>
           <Link href='/' className='flex items-center space-x-2'>
-            <div className='h-5'>
+            <div className='h-15'>
               <Image 
                 src='/images/logo_bg_removed.png' 
                 alt='StrataXM Logo' 

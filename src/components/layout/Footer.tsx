@@ -46,18 +46,23 @@ export function Footer() {
             <h3 className='text-sm font-medium mb-4 gradient-text'>Services</h3>
             <ul className='space-y-3'>
               <li>
-                <Link href='/services/consulting' className='text-sm text-muted-foreground hover:text-[#4CD964] transition-colors'>
-                  Consulting
-                </Link>
-              </li>
-              <li>
-                <Link href='/services/strategy' className='text-sm text-muted-foreground hover:text-[#4CD964] transition-colors'>
-                  Strategy
+                <Link href='/services/program-design' className='text-sm text-muted-foreground hover:text-[#4CD964] transition-colors'>
+                  Program Design & Strategy
                 </Link>
               </li>
               <li>
                 <Link href='/services/implementation' className='text-sm text-muted-foreground hover:text-[#4CD964] transition-colors'>
-                  Implementation
+                  Implementation & Integration
+                </Link>
+              </li>
+              <li>
+                <Link href='/services/optimization' className='text-sm text-muted-foreground hover:text-[#4CD964] transition-colors'>
+                  Optimization & Expansion
+                </Link>
+              </li>
+              <li>
+                <Link href='/services/experience-activation' className='text-sm text-muted-foreground hover:text-[#4CD964] transition-colors'>
+                  Experience Activation
                 </Link>
               </li>
             </ul>
