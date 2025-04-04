@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight, BarChart3, Layers, Lightbulb, Target, Workflow, Database, Users, Zap } from "lucide-react";
 import Link from "next/link";
@@ -52,7 +51,7 @@ export function Services() {
   ];
 
   return (
-    <section className="py-16 md:py-24 bg-secondary/50">
+    <section className="relative py-16 md:py-24 bg-secondary/50">
       <div className="container px-4 md:px-6 lg:px-8">
         <div className="flex flex-col items-center text-center space-y-4 mb-12 md:mb-16">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tighter">Our Services</h2>

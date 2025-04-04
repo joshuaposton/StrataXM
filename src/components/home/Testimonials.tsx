@@ -21,7 +21,7 @@ export function Testimonials() {
   ];
 
   return (
-    <section className='py-16 md:py-24 bg-gradient-to-r from-[#4CD964]/5 to-[#3B82F6]/5'>
+    <section className='relative py-16 md:py-24 bg-gradient-to-r from-[#4CD964]/5 to-[#3B82F6]/5'>
       <div className='container px-4 md:px-6 lg:px-8'>
         <div className='flex flex-col items-center text-center space-y-4 mb-12 md:mb-16'>
           <h2 className='text-3xl md:text-4xl font-bold tracking-tighter gradient-text'>Client Testimonials</h2>

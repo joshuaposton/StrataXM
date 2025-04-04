@@ -115,4 +115,8 @@ body {
   .rounded-btn {
     @apply rounded-full;
   }
+  
+  .services-bg {
+    @apply bg-gradient-to-br from-[#f8f9ff] via-[#f0f7ff] to-[#eefbf3] dark:from-secondary/5 dark:via-primary/5 dark:to-secondary/5;
+  }
 }
