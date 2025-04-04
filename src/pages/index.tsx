@@ -4,6 +4,7 @@ import { Hero } from "@/components/home/Hero";
 import { Services } from "@/components/home/Services";
 import { Insights } from "@/components/home/Insights";
 import { CTA } from "@/components/home/CTA";
+import { ContactForm } from "@/components/home/ContactForm";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Services />
         <Insights />
         <CTA />
+        <ContactForm />
       </Layout>
     </>
   );
